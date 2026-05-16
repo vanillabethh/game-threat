@@ -24,6 +24,7 @@ while run == True:
         print()
         print('Stop fucking playing with me right now.')
         print()
+        run = False
 
     looks = input('You\'re so pretty. Do you think I\'m handsome?(yes/no): ').lower()
     if looks == 'yes':
@@ -40,6 +41,50 @@ while run == True:
         print()
         print('Haha you must think so. You\'re so nervous.')
         print()
+        run = False
+
+print('I can walk you home if you\'d like.')
+print()
+print('I wish you would stay at talk to me.')
+print()
+print('Stop taking steps further away from me')
+print()
+print('...')
+print()
+print('I\'ll see you later')
+print()
+
+print('YOU HAVE ARRIVED HOME "SAFELY".')
+print()
+
+print('YOU ARE GETTING READY FOR BED NOW.')
+print()
+print('AS YOU\'RE EYES ARE ABOUT TO SHUT, YOU RECIEVE A MESSAGE FROM AN UNKNOWN NUMBER.')
+print()
+
+print('Glad you made it home safe. I followed you home to make sure you were safe.')
+print()
+print('There could have been creeps out there.')
+print()
+
+creep = True
+while creep == True:
+    text = input('Hey maybe we can hang out again tomorrow?(yes/no): ').lower()
+    if text == 'yes':
+        print('I\'ll be waiting for you at the same spot.')
+        print()
+        creep = False
+    elif text == 'no':
+        print('Okay i\'ll come find you so we can hangout.')
+        print()
+        creep = False
+    else:
+        print('That\'s okay. See ya tomorrow.')
+        print()
+        creep = False
+
+    
+      
 
 
 
